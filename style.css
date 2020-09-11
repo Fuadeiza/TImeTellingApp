@@ -1,0 +1,68 @@
+.body {
+  height: 100vh;
+  background-color: rgb(39, 41, 68);
+  font-family: courier;
+}
+
+.text {
+  height: 5vh;
+  color: beige;
+  text-align: center;
+}
+
+.welcome {
+  height: 25vh;
+  color: rgb(214, 214, 21);
+  text-align: center;
+}
+
+.time {
+  text-align: center;
+  font-size: larger;
+  font-weight: 1000;
+  height: 10vh;
+}
+
+.pics {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15%;
+
+}
+
+.greeting {
+    height: 25vh;
+    color: rgb(214, 214, 21);
+    text-align: center;
+
+@keyframes shakeComputer {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-50px);
+  }
+  25% {
+    transform: translateY(0px);
+  }
+  35% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(-50px);
+  }
+  75% {
+    transform: translateY(0px);
+  }
+  85% {
+    transform: translateY(-50px);
+  }
+  100% {
+    transform: translateY(-0px);
+  }
+}
